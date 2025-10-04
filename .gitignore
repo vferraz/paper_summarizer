@@ -1,0 +1,30 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# === Environment ===
+.env
+*.env
+*.env.*
+
+# === OS / IDE ===
+.DS_Store
+.vscode/
+.idea/
+
+# === Output directories ===
+output/
+input/
+
+# === Jupyter / temp ===
+.ipynb_checkpoints/
+*.ipynb
+
+# === Virtual environments ===
+venv/
+env/
+.summarizer_env/

@@ -1,0 +1,16 @@
+# === Core dependencies ===
+openai>=1.0.0
+python-dotenv>=1.0.0
+PyMuPDF>=1.24.0
+
+# === Optional utilities ===
+tqdm>=4.65.0         # progress bar for large runs (optional)
+pandas>=2.0.0        # used if you post-process JSONL data
+requests>=2.31.0     # network utilities (used indirectly by openai)
+
+# === Scientific/analysis stack (optional but useful) ===
+numpy>=1.26.0
+scikit-learn>=1.4.0
+scipy>=1.12.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
